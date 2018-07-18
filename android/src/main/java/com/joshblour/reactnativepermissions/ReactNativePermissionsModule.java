@@ -60,7 +60,7 @@ public class ReactNativePermissionsModule extends ReactContextBaseJavaModule {
         // Use shouldShowRequestPermissionRationale to determined which on it is.
         if (getCurrentActivity() != null) {
           boolean deniedOnce = ActivityCompat.shouldShowRequestPermissionRationale(getCurrentActivity(), permission);
-          promise.resolve(deniedOnce ? "denied" : "undetermined");
+          promise.resolve(deniedOnce ? "denied" : "restricted");
         } else {
           promise.resolve("denied");
         }
