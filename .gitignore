@@ -1,15 +1,2 @@
-*.xcworkspace
-xcuserdata
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-
-*.DS_Store
-Thumbs.db
-Desktop.ini
-
-.vscode/
-
-android/build/
+android/react-native-permissions.iml
+android/build
